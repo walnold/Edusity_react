@@ -1,8 +1,8 @@
 import "./Hero.css";
-import dark_arrow from '../../assets/dark-arrow.png';
+import dark_arrow from "../../assets/dark-arrow.png";
 const Hero = () => {
   return (
-    <section className="container hero">
+    <section id="home" className="container hero">
       <div className="hero-text">
         <h1>We Ensure Better Education for a Better World</h1>
         <p>
