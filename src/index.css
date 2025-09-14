@@ -46,3 +46,31 @@ a {
   background: #212ea0;
   color: #fff;
 }
+
+
+
+
+/* Responsiveness */
+
+@media (max-width: 1200px){
+
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+
+  }
+
+  li:hover{
+    /* background: #212ea0; */
+    color: #212121;
+  }
+
+  .btn{
+    padding: 14px 22px;
+  }
+
+  .hide-mobile-menu{
+    right: -200px;
+  }
+
+}
