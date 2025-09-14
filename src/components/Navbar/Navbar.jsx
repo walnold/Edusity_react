@@ -9,8 +9,9 @@ const Navbar = () => {
 
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      console.log(window.scrollY);
-      window.scrollY > 900 ? setSticky(true) : setSticky(false);
+      // console.log(window.scrollY);
+      // window.scrollY > 450 ? console.log("Should turn") : "";
+      window.scrollY > 450 ? setSticky(true) : setSticky(false);
     });
   }, []);
 
