@@ -9,7 +9,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .video-player video {
@@ -21,6 +20,6 @@
   margin: auto;
 }
 
-.video-player.hide {
+.video-player.hide  {
   display: none;
 }

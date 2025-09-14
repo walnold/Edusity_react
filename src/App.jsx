@@ -12,6 +12,7 @@ import VideoPlayer from "./components/VideoPlayer/VideoPlayer";
 
 function App() {
   const [playVideo, setPlayVideo] = useState(false);
+  console.log("Play state: ", playVideo)
 
   const handlePlay = () => {
     setPlayVideo((playVideo) => !playVideo);
