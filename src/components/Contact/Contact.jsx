@@ -10,14 +10,12 @@ const Contact = () => {
   const [result, setResult] = React.useState("");
   const email_api = import.meta.env.VITE_EMAIL_API_KEY;
 
- 
-
   const onSubmit = async (event) => {
     event.preventDefault();
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key",  email_api );
+    formData.append("access_key", email_api);
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -36,7 +34,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="contact-col">
         <h3>
           Send us a message <img src={msg_icon} alt="" />
