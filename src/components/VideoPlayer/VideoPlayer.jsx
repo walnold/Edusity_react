@@ -12,7 +12,7 @@ const VideoPlayer = ({playVideo, handlePlay}) => {
     }
   }
   return (
-    <div ref={player} onClick={closePlayer} className={`video-player ${playVideo && "hide"}`}>
+    <div ref={player} onClick={closePlayer} className={`video-player ${playVideo ?"": "hide"}`}>
 
       <video src={video} autoPlay muted controls></video>
       
